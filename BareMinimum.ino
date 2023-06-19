@@ -1,55 +1,65 @@
+int redLED=4;
+int dit=100;
+int dah=500;
+int longW=1000;
+
+String myName="Tomas Gorjux";
+
 void setup() {
   // put your setup code here, to run once:
-  pinMode(13,OUTPUT);
-  pinMode(12,OUTPUT);
-  pinMode(11,OUTPUT);
+  pinMode(redLED,OUTPUT);
 }
 
 void loop() {
   // SOS SIGNAL
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(dit);
   
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(dit);
 
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(dit);
 
-  digitalWrite(13,HIGH);
-  delay(1000);
-  digitalWrite(13,LOW);
-  delay(1000);
+  digitalWrite(redLED,HIGH);
+  delay(dah);
+  digitalWrite(redLED,LOW);
+  delay(dah);
   
-  digitalWrite(13,HIGH);
-  delay(1000);
-  digitalWrite(13,LOW);
-  delay(1000);
+  digitalWrite(redLED,HIGH);
+  delay(dah);
+  digitalWrite(redLED,LOW);
+  delay(dah);
   
-  digitalWrite(13,HIGH);
-  delay(1000);
-  digitalWrite(13,LOW);
-  delay(1000);
+  digitalWrite(redLED,HIGH);
+  delay(dah);
+  digitalWrite(redLED,LOW);
+  delay(dah);
+
+  digitalWrite(redLED,HIGH);
+  delay(dah);
+  digitalWrite(redLED,LOW);
+  delay(dah);
   
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(dit);
   
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(dit);
   
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(2000);
+  digitalWrite(redLED,HIGH);
+  delay(dit);
+  digitalWrite(redLED,LOW);
+  delay(longW);
 
 }
